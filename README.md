@@ -32,15 +32,29 @@ Interceptors for token refresh
 
 Landing → Login → Profile → Landing.
 
-## Learn More
+## 🧠 Understanding the Flow with a Simple Picture
 
-To learn more about Next.js, take a look at the following resources:
+1. User enters email & password
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+⬇️
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. POST /login → Receive access & refresh tokens
 
+⬇️
+
+3. Save tokens
+
+⬇️
+
+4. Use access token → GET /profile
+
+⬇️
+
+5. If access token expires → POST /refresh-token
+
+⬇️
+
+6. Retry failed request automatically
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
