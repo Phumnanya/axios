@@ -2,23 +2,35 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+This project includes:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+✔ A landing page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+"Login" button
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✔ A login page
+
+Email + password form
+
+Successful login → redirect to Profile
+
+
+✔ A profile page
+
+Shows user info from API
+
+
+✔ Axios setup file
+
+Base URL
+
+Interceptors for token refresh
+
+
+✔ Navigation working between all pages
+
+Landing → Login → Profile → Landing.
 
 ## Learn More
 
