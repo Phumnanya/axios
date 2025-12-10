@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-This project includes:
+This project is a demonstration of how to use axios for api integration. the project includes:
 
 ✔ A landing page
 
@@ -57,6 +57,4 @@ Landing → Login → Profile → Landing.
 6. Retry failed request automatically
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The project id deployed live on:
