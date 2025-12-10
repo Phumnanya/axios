@@ -57,4 +57,4 @@ Landing → Login → Profile → Landing.
 6. Retry failed request automatically
 ## Deploy on Vercel
 
-The project id deployed live on:
+The project id deployed live on: https://axios-ten-rho.vercel.app/
